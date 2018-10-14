@@ -144,7 +144,7 @@ namespace AcadExts
         public abstract String Process();
 
         #region Template Pattern
-        // In each dervied processing class, override initialize, performProcessing, and cleanup methods
+        // In each derived processing class, override initialize, performProcessing, and cleanup methods
         // and call below Process method (the template method) from view model. This will ensure the same template is being
         // used for all dwg processing functions.
 
